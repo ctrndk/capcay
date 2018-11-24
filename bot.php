@@ -62,11 +62,11 @@ flush();
 $news       =   news($uid,$n);
 $news1 = json_decode($news,true);
 if ($news1['message'] == 'OK') {
-        echo $ijo."    ==> BERHASIL";
+        echo $ijo."> OK\n";
         }
         else
         {
-        echo $red."[!] => GAGAL !";
+        echo $red."[!] => GAGAL !\n";
         }
 endwhile;
 sleep(1);
@@ -80,11 +80,11 @@ flush();
 $video      =   video($uid,$n);
 $video1 = json_decode($video,true);
 if ($video1['message'] == 'OK') {
-        echo $ijo."    ==> BERHASIL ";
+        echo $ijo."> OK \n";
         }
         else
         {
-        $red."[!] => GAGAL !";
+        $red."[!] => GAGAL !\n";
         }
 endwhile;
 sleep(1);
@@ -98,11 +98,11 @@ flush();
 $share      =   share($uid,$n);
 $share1 = json_decode($share,true);
     if ($share1['message'] == 'OK') {
-        echo $ijo."    ==> BERHASIL ";
+        echo $ijo."> OK \n";
         }
         else
         {
-        $red."[!] => GAGAL !";
+        $red."[!] => GAGAL !\n";
         }
 endwhile;
 sleep(1);
@@ -117,7 +117,7 @@ flush();
 $code       =   code($uid,$n);
 $code1 = json_decode($code,true);
 if ($code1['message'] == 'OK') {
-        echo $ijo."    ==> BERHASIL \n";
+        echo $ijo."> OK \n";
         }
         else
         {
@@ -136,7 +136,7 @@ flush();
 $klik       =   klik($uid,$n);
 $klik1 = json_decode($klik,true);
     if ($klik1['message'] == 'OK') {
-        echo $ijo."    ==> BERHASIL \n";
+        echo $ijo."> OK \n";
         }
         else
         {
