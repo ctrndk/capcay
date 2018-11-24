@@ -117,11 +117,11 @@ flush();
 $code       =   code($uid,$n);
 $code1 = json_decode($code,true);
 if ($code1['message'] == 'OK') {
-        echo $ijo."    ==> BERHASIL ";
+        echo $ijo."    ==> BERHASIL \n";
         }
         else
         {
-        $red."[!] => GAGAL !";
+        $red."[!] => GAGAL !\n";
         }
 endwhile;
 sleep(1);
@@ -136,11 +136,11 @@ flush();
 $klik       =   klik($uid,$n);
 $klik1 = json_decode($klik,true);
     if ($klik1['message'] == 'OK') {
-        echo $ijo."    ==> BERHASIL ";
+        echo $ijo."    ==> BERHASIL \n";
         }
         else
         {
-        $red."[!] => GAGAL !";
+        $red."[!] => GAGAL !\n";
         }
 endwhile;
 sleep(1);
