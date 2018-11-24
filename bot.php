@@ -18,7 +18,7 @@ print $ijo."
 | |     / _ \ | |_) | ||  \| | |  _
 | |___ / ___ \|  __/| || |\  | |_| |
  \____/_/   \_\_|  |___|_| \_|\____|".$t;
- echo $putih."Masukin "."Kode Invite : jwrtr2".$t.$t;
+ echo $putih."        Masukin "."Kode Invite : jwrtr2".$t.$t;
 include(readline($turkis."masukan config : "));
 
 //echo"$turkis bot start $putih \n";
